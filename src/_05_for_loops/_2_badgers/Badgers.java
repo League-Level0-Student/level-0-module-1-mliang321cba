@@ -6,25 +6,30 @@ public class Badgers {
 		String word2 = "mushroom";
 		String word3 = "snake";
 			for (int i = 0; i < 10; i++) {
-				System.out.println(word1);
+				System.out.print(word1 + " ");
 			}	
 			System.out.println(word2 + " " + word2 + " a");
 			
 			for (int i = 0; i < 10; i++) {
-				System.out.println(word1);
+				System.out.print(word1 + " ");
 			}	
 			System.out.println(word2 + " " + word2 + " a");
 			
 			for (int i = 0; i < 10; i++) {
-				System.out.println(word1);
+				System.out.print(word1 + " ");
 			}	
 			System.out.println("Mush-" + word2 + " a");
 			for (int i = 0; i < 10; i++) {
-				System.out.println(word1);
+				System.out.print(word1 + " ");
 			}
 			System.out.println("a " + word3 + ", a " + word3);
 			System.out.println(word3 + "! A " + word3 + ", ooh, it's a " + word3 + "!");
 			
+			System.out.println("It's a ");
+			for (int i = 0; i < 10; i++) {
+			System.out.print(word1 + " ");
+			}
+			System.out.println(word2 + " " + word2 + " a");
 		}
 	
 }
